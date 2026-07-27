@@ -20,7 +20,7 @@
     margin:0;
     padding:0;
     background:var(--page-bg);
-    font-family:-apple-system, "Segoe UI", "Helvetica Neue", Arial, "Liberation Sans", sans-serif;
+    font-family:"Times New Roman", Times, Georgia, "Liberation Serif", serif;
     color:var(--ink);
   }
 
@@ -29,31 +29,31 @@
     min-height:297mm;
     margin:16px auto;
     background:var(--paper);
-    padding:11mm 13mm;
+    padding:12mm 15mm;
     box-shadow:0 4px 24px rgba(0,0,0,0.18);
   }
 
   /* ---------- Header ---------- */
   .header{
     text-align:center;
-    margin-bottom:9px;
+    margin-bottom:10px;
   }
   .name{
-    font-size:24px;
+    font-size:29px;
     font-weight:700;
-    letter-spacing:0.5px;
+    letter-spacing:0.3px;
     color:var(--ink);
-    margin:0 0 3px 0;
+    margin:0 0 4px 0;
   }
   .tagline{
-    font-size:11px;
+    font-size:12.5px;
     color:var(--accent);
-    font-weight:600;
-    letter-spacing:0.3px;
-    margin:0 0 6px 0;
+    font-weight:700;
+    letter-spacing:0.2px;
+    margin:0 0 7px 0;
   }
   .contact-row{
-    font-size:10.3px;
+    font-size:12px;
     color:var(--muted);
   }
   .contact-row a{
@@ -65,22 +65,22 @@
 
   /* ---------- Section ---------- */
   .section{
-    margin-top:11px;
+    margin-top:13px;
   }
   .section-title{
-    font-size:11.5px;
+    font-size:13px;
     font-weight:700;
-    letter-spacing:1.4px;
+    letter-spacing:1.2px;
     text-transform:uppercase;
     color:var(--accent);
     border-bottom:1.3px solid var(--accent);
-    padding-bottom:2px;
-    margin:0 0 6px 0;
+    padding-bottom:3px;
+    margin:0 0 7px 0;
   }
 
   /* ---------- Entry blocks ---------- */
   .entry{
-    margin-bottom:7px;
+    margin-bottom:8px;
   }
   .entry-row{
     display:flex;
@@ -89,25 +89,25 @@
     gap:10px;
   }
   .entry-title{
-    font-size:12px;
+    font-size:13.5px;
     font-weight:700;
     color:var(--ink);
   }
   .entry-title a{ color:var(--ink); text-decoration:none; }
   .entry-sub{
-    font-size:10.6px;
+    font-size:12px;
     font-style:italic;
     color:var(--muted);
-    margin-top:0.5px;
+    margin-top:1px;
   }
   .entry-date{
-    font-size:10.3px;
+    font-size:12px;
     color:var(--muted);
     white-space:nowrap;
     font-style:italic;
   }
   .links{
-    font-size:10px;
+    font-size:11.5px;
     font-weight:500;
   }
   .links a{
@@ -116,20 +116,20 @@
   }
   .links a:hover{ text-decoration:underline; }
   .stack{
-    font-size:10px;
+    font-size:11.5px;
     color:var(--muted);
     margin-top:1px;
   }
 
   ul.bullets{
-    margin:3px 0 0 0;
-    padding-left:15px;
+    margin:4px 0 0 0;
+    padding-left:17px;
   }
   ul.bullets li{
-    font-size:10.6px;
-    line-height:1.38;
+    font-size:12px;
+    line-height:1.4;
     color:#262626;
-    margin-bottom:1.5px;
+    margin-bottom:2px;
   }
 
   /* ---------- Education table ---------- */
@@ -141,25 +141,25 @@
     margin-bottom:4px;
   }
   .edu-left .edu-school{
-    font-size:12px;
+    font-size:13.5px;
     font-weight:700;
   }
   .edu-left .edu-degree{
-    font-size:10.6px;
+    font-size:12px;
     font-style:italic;
     color:var(--muted);
   }
   .edu-right{
     text-align:right;
-    font-size:10.3px;
+    font-size:12px;
     color:var(--muted);
     white-space:nowrap;
   }
 
   /* ---------- Skills ---------- */
   .skills-grid{
-    font-size:10.6px;
-    line-height:1.55;
+    font-size:12px;
+    line-height:1.6;
   }
   .skills-grid .cat{
     font-weight:700;
@@ -204,7 +204,7 @@
     <div class="edu-row">
       <div class="edu-left">
         <div class="edu-school">Shri G. S. Institute of Technology and Science (SGSITS)</div>
-        <div class="edu-degree">B.Tech, Electronics and Instrumentation Engineering — CGPA: 6.85</div>
+        <div class="edu-degree">B.Tech, Electronics and Instrumentation Engineering — CGPA: 7.1</div>
       </div>
       <div class="edu-right">Expected 2028<br>Indore, MP</div>
     </div>
@@ -227,10 +227,10 @@
       </div>
       <div class="entry-sub">Next.js 15, React 19, Appwrite, Vercel · Indore, MP</div>
       <ul class="bullets">
-        <li>Replaced MolView with Ketcher for compound-structure drawing: fixed SSR crashes via webpack externals and integrated RDKit (<code>window.initRDKitModule()</code>) into a KET → molfile → SMILES → PubChem pipeline with an auto-generated SVG fallback for unrecognized compounds, shipped behind a feature flag for safe rollback.</li>
-        <li>Built teacher-to-student email notifications for experiment status changes using Nodemailer/Zoho with non-blocking async calls (Issue #96); PR merged to the Development branch.</li>
-        <li>Building structure search over Tanimoto similarity on RDKit Morgan fingerprints, including persisting SMILES to Appwrite's ReactionComponent collection.</li>
-        <li>Collaborated with a distributed open-source team via Git, GitHub code review, and Agile practices.</li>
+        <li>Contributed to a production-grade Next.js application by implementing new features and fixing bugs in collaboration with an open-source development team.</li>
+        <li>Developed experiment history, version control functionality, improved data integrity and user experience.</li>
+        <li>Designed and integrated Appwrite database schemas, optimized data handling workflows, and enhanced experiment management features.</li>
+        <li>Collaborated through Git, GitHub, and code reviews while following modern software engineering and Agile development practices.</li>
       </ul>
     </div>
   </div>
@@ -251,14 +251,14 @@
 
     <div class="entry">
       <div class="entry-row">
-        <div class="entry-title">EchoEdge <span class="links">| <a href="https://github.com/Choosenone-17/Arm_hackathon" target="_blank">GitHub</a></span></div>
-        <div class="entry-date">Feb 2026 – Mar 2026</div>
+        <div class="entry-title">Morse Code Encoder &amp; Decoder <span class="links">| <a href="https://github.com/Choosenone-17/morsetree" target="_blank">GitHub</a></span></div>
+        <div class="entry-date">Jan 2026 – Feb 2026</div>
       </div>
-      <div class="stack">Python, Faster-Whisper, MarianMT, Arm NEON</div>
+      <div class="stack">Java, Spring Boot</div>
       <ul class="bullets">
-        <li>Built a real-time, 100% offline Hindi-to-English speech translation system optimized for Arm64 with NEON acceleration.</li>
-        <li>Architected an end-to-end pipeline (Faster-Whisper INT8 → MarianMT → native TTS) achieving ~1.2–1.8s latency at low CPU usage.</li>
-        <li>Designed custom Voice Activity Detection and anti-hallucination logic to improve conversational stability.</li>
+        <li>Engineered a Morse code encoder-decoder system using Java and Spring Boot for efficient bidirectional translation.</li>
+        <li>Designed a Binary Tree-based mapping structure to optimize encoding and decoding performance.</li>
+        <li>Leveraged Data Structures and Algorithms concepts to build a scalable and efficient solution.</li>
       </ul>
     </div>
 
@@ -269,42 +269,22 @@
       </div>
       <div class="stack">MERN Stack — MongoDB, Express.js, React, Node.js</div>
       <ul class="bullets">
-        <li>Built a full-stack campus marketplace that drew 4,500+ views and 100+ transactions in its first week live.</li>
-        <li>Developed responsive product listing, search, and browsing workflows end-to-end.</li>
+        <li>Engineered a campus marketplace platform driving 4,500+ views and 100+ transactions within the first week of launch.</li>
+        <li>Architected a full-stack MERN application leveraging MongoDB, Express.js, React, and Node.js.</li>
+        <li>Developed efficient product listing, search, and browsing workflows with a fully responsive UI.</li>
       </ul>
     </div>
 
     <div class="entry">
       <div class="entry-row">
-        <div class="entry-title">GS Threads <span class="links">| <a href="https://github.com/Choosenone-17/gsThreads_frontend" target="_blank">Frontend</a> · <a href="https://github.com/Choosenone-17/gsThreads_backend" target="_blank">Backend</a></span></div>
-        <div class="entry-date">Sep 2025 – Dec 2025</div>
+        <div class="entry-title">EchoEdge <span class="links">| <a href="https://github.com/Choosenone-17/Arm_hackathon" target="_blank">GitHub</a></span></div>
+        <div class="entry-date">Feb 2026 – Mar 2026</div>
       </div>
-      <div class="stack">MERN Stack — React, Node.js, Express</div>
+      <div class="stack">Python, Faster-Whisper, MarianMT, Arm NEON</div>
       <ul class="bullets">
-        <li>Built a full-stack customizable product-ordering platform with a responsive frontend and scalable backend APIs.</li>
-        <li>Deployed and maintained a production-ready release, ensuring performance and reliability.</li>
-      </ul>
-    </div>
-
-    <div class="entry">
-      <div class="entry-row">
-        <div class="entry-title">Morse Code Encoder &amp; Decoder <span class="links">| <a href="https://github.com/Choosenone-17/morsetree" target="_blank">GitHub</a></span></div>
-        <div class="entry-date">Jan 2026 – Feb 2026</div>
-      </div>
-      <div class="stack">Java, Spring Boot</div>
-      <ul class="bullets">
-        <li>Built a bidirectional Morse code translator backed by a binary-tree mapping structure for efficient encoding and decoding.</li>
-      </ul>
-    </div>
-
-    <div class="entry">
-      <div class="entry-row">
-        <div class="entry-title">Electronic Piano</div>
-        <div class="entry-date">Sep 2025</div>
-      </div>
-      <div class="stack">Embedded Systems, Digital Electronics</div>
-      <ul class="bullets">
-        <li>Designed an electronic piano mapping push-button keys to a microcontroller, generating notes via a buzzer/speaker with custom digital input processing and frequency generation.</li>
+        <li>Engineered EchoEdge, a real-time, 100% offline Hindi-to-English speech translation system optimized for Arm64 architectures using NEON acceleration.</li>
+        <li>Architected an end-to-end pipeline integrating Faster-Whisper (INT8), MarianMT, and native TTS, achieving ~1.2–1.8s latency with low CPU usage.</li>
+        <li>Designed custom Voice Activity Detection (VAD) and anti-hallucination mechanisms to improve translation accuracy and stability in conversational scenarios.</li>
       </ul>
     </div>
   </div>
